@@ -9,12 +9,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     
 }
 
 .gallery {
-    width: 75%;
+    width: 80%;
     display: flex;
     margin-left: 180px;
     flex-wrap: wrap;
@@ -58,4 +58,11 @@
 
 img {
     width: 100%;
+}
+
+.resume {
+    transition: all ease-in-out 0.1s;
+    &:hover {
+        text-decoration: underline 1px red;
+    }
 }
