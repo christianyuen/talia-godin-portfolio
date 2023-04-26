@@ -280,8 +280,9 @@ img {
 .gallery {
   width: 75%;
   display: flex;
-  flex-direction: column;
   margin-left: 180px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .icon-container {
@@ -292,6 +293,13 @@ img {
   margin: 0;
   padding: 0;
   position: relative;
+}
+
+.chippy-image-container {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 49%;
 }
 
 .image-hover {
